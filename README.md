@@ -1,1 +1,3 @@
-# nimit-708.github.io
+CaPool Website
+
+This website is created for transport-hacks online hackathon.  
