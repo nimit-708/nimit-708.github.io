@@ -8,23 +8,45 @@
 </head>
 <body>
     <!-----Add the logo-->
-    <img src="capool-logo.png" alt="capool-logo" style="width: 128px;height:128px">
-    <!-----Add the login and Signup button-->
-    <div class="login-signup">
+    <img src="capool-logo.png" alt="capool-logo" style="width: 145px;height:128px">
+    <div class="homepage">
+      <!--Add the tabs for about section and contact information-->
+      <div class="tab-buttons">
+        <button class="button" id="about">About CaPool</button>
+        <script>
+            // JavaScript code to open the new page
+            document.getElementById("about").addEventListener("click", function () {
+                window.location.href = "about.html";
+            });
+        </script>
+        <button class="button" id="contact">Contact Us</button>
+        <script>
+            // JavaScript code to open the new page
+            document.getElementById("contact").addEventListener("click", function () {
+                window.location.href = "ContactUs.html";
+            });
+        </script>
+      </div>  
+      <!-----Add the login and Signup button-->
+      <div class="login-signup">
+        <h3>Please Login below </h3>
         <p>Email</p>
         <input type="email" name="email" required>
         <p>Password</p>
         <input type="password" name="password" required>
         <p></p> 
         <button class="button">Login</button>
+        <br />
+        <br />
         <p>New to Capool! Sign up now!</p>
-        <button class="button">Signup</button>
-    </div>
-    <div class="About Capool">
-        <h3>What is Capool?</h3>
-        <p>Capool is a carpooling website which allows you to find people along whom you can got to same destination at same time </p>
-        <h3><b>Why Carpooling is needed in UK?</b></h3>
-        <p>In UK, every year around 2.5 billion people commute via public transports to work. But, recently we are seeing increase in train and tram strikes and that's where </p>
+        <button class="button" id="signup">Signup</button>
+        <script>
+            // JavaScript code to open the new page
+            document.getElementById("signup").addEventListener("click", function () {
+                window.location.href = "signup.html";
+            });
+        </script>
+      </div>
     </div>
 </body>
 </html>

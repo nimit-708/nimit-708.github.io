@@ -7,29 +7,32 @@
     <title>Signup Page</title>
 </head>
 <body>
-    <h2>We are so happy that you are becoming a part of CaPool</h2>
-    <form action="/url" method="POST">
-        <p>First Name</p>
-        <input type="text" name="first_name" required>
-        <p>Last Name</p>
-        <input type="text" name="last_name" required>
-        <p>Phone Number</p>
-        <input type="tel" id="number" name="phone_number" placeholder="01234567891" required>
-        <p>Email</p>
-        <input type="email" id="email" name="email-id" required>
-        <p>Username</p>
-        <input type="text" id="username" name="user-name" required>
-        <p>Password</p>
-        <input type="password" id="password" name="password" required>
-        <p>Address Line 1</p>
-        <input type="text" name="address1">
-        <p>Address Line 2</p>
-        <input type="text" name="address2">
-        <p>City</p>
-        <input type="text" name="city">
-        <p>Postcode</p>
-        <input type="text" name="city">
-        <button type="submit" name="Submit"></button>
-    </form>
+    <img src="capool-logo.png" alt="capool-logo" style="width: 145px;height:128px">
+    <div class="signup">
+        <h2>We are so happy that you are becoming a part of CaPool</h2>
+        <form action="signup.php" method="POST">
+            <p>First Name</p>
+            <input type="text" name="first_name" required>
+            <p>Last Name</p>
+            <input type="text" name="last_name" required>
+            <p>Phone Number</p>
+            <input type="tel" id="number" name="phone_number" placeholder="01234567891" required>
+            <p>Email</p>
+            <input type="email" id="email" name="email" required>
+            <p>Password</p>
+            <input type="password" id="password" name="password" required>
+            <p>Address Line 1</p>
+            <input type="text" name="address1" required>
+            <p>Address Line 2</p>
+            <input type="text" name="address2" required>
+            <p>City</p>
+            <input type="text" name="city" required>
+            <p>Postcode</p>
+            <input type="text" name="city" required>
+            <br />
+            <br />
+            <button type="submit" name="Submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
